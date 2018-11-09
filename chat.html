@@ -1,0 +1,179 @@
+<html>
+<!-- The <head> is the section where all "invisible" information is stored -->
+<head>
+    <!-- Defines the text layout (mandatory) -->
+    <meta charset="utf-8">
+    <!-- Makes a page responsive and "good looking" on mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Page Title -->
+    <title>Chat App</title>
+    <!-- Stylesheets that contain some CSS to handle the looks of our website -->
+    <link rel="stylesheet" type="text/css" href="./chat.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+</head>
+<!-- The <body> is the section where all our pages elements are defined -->
+<body>
+    <!-- The mainGrid class is our main Layout box. It divides the page into a sidebar and a main content area -->
+    <div class="mainGrid">
+        <!-- The aside is the sidebar of the page (could be also a <div> with a class, but for accessibility reasons we chose the pre-defined HTML tag) -->
+        <aside>
+            <!-- Every "chat"-div resembles a contact in the sidebar -->
+            <div class="chat">
+                <!-- To better style the content of the box we put the content in a seperate box -->
+                <div class="content">
+                    <h1>Max Mustermann</h1>
+                    <p>Hi, ich bin eine Antwort die etwas viel zu lang geworden ist</p>
+                </div>
+            </div>
+            <div class="chat">
+                <div class="content">
+                    <h1>Max Mustermann</h1>
+                    <p>Hi, ich bin eine Antwort die etwas viel zu lang geworden ist</p>
+                </div>
+            </div>
+            <div class="chat">
+                <div class="content">
+                    <h1>Max Mustermann</h1>
+                    <p>Hi, ich bin eine Antwort die etwas viel zu lang geworden ist</p>
+                </div>
+            </div>
+            <div class="chat">
+                <div class="content">
+                    <h1>Max Mustermann</h1>
+                    <p>Hi, ich bin eine Antwort die etwas viel zu lang geworden ist</p>
+                </div>
+            </div>
+            <div class="chat">
+                <div class="content">
+                    <h1>Max Mustermann</h1>
+                    <p>Hi, ich bin eine Antwort die etwas viel zu lang geworden ist</p>
+                </div>
+            </div>
+            <div class="chat">
+                <div class="content">
+                    <h1>Max Mustermann</h1>
+                    <p>Hi, ich bin eine Antwort die etwas viel zu lang geworden ist</p>
+                </div>
+            </div>
+            <div class="chat">
+                <div class="content">
+                    <h1>Max Mustermann</h1>
+                    <p>Hi, ich bin eine Antwort die etwas viel zu lang geworden ist</p>
+                </div>
+            </div>
+            <div class="chat">
+                <div class="content">
+                    <h1>Max Mustermann</h1>
+                    <p>Hi, ich bin eine Antwort die etwas viel zu lang geworden ist</p>
+                </div>
+            </div>
+            <div class="chat">
+                <div class="content">
+                    <h1>Max Mustermann</h1>
+                    <p>Hi, ich bin eine Antwort die etwas viel zu lang geworden ist</p>
+                </div>
+            </div>
+            <div class="chat">
+                <div class="content">
+                    <h1>Max Mustermann</h1>
+                    <p>Hi, ich bin eine Antwort die etwas viel zu lang geworden ist</p>
+                </div>
+            </div>
+            <div class="chat">
+                <div class="content">
+                    <h1>Max Mustermann</h1>
+                    <p>Hi, ich bin eine Antwort die etwas viel zu lang geworden ist</p>
+                </div>
+            </div>
+            <div class="chat">
+                <div class="content">
+                    <h1>Max Mustermann</h1>
+                    <p>Hi, ich bin eine Antwort die etwas viel zu lang geworden ist</p>
+                </div>
+            </div>
+        </aside>
+        <!-- The <main> area is where we will implement our chat -->
+        <main>
+            <!-- The "chatInfos"-div contains the header-Information of the chat -->
+            <div class="chatInfos">
+                <!-- We need an additional container to corretly position our elements -->
+                <div class="contact">
+                    <h1>Max Mustermann</h1>
+                    <p>Vor 38 Minuten</p>
+                    <!-- Our navigation button that will only be shown in the mobile layout of our page -->
+                    <img src="back.svg" />
+                </div>
+            </div>
+            <!-- In this area we display our chat messages -->
+            <div class="content">
+                <!-- Each "msg"-div is one chat message, left and right define if the message is from you or your chat partner -->
+                <div class="msg left">
+                    Hi, ich bin eine Nachricht
+                </div>
+                <div class="msg right">
+                    Hi, ich bin eine Antwort.
+                </div>
+                <div class="msg left">
+                    Hi, ich bin eine Nachricht
+                </div>
+                <div class="msg right">
+                    Hi, ich bin eine Antwort.
+                </div>
+                <div class="msg left">
+                    Hi, ich bin eine Nachricht
+                </div>
+                <div class="msg right">
+                    Hi, ich bin eine Antwort.
+                </div>
+                <div class="msg left">
+                    Hi, ich bin eine Nachricht
+                </div>
+                <div class="msg right">
+                    Hi, ich bin eine Antwort.
+                </div>
+                <div class="msg left">
+                    Hi, ich bin eine Nachricht
+                </div>
+                <div class="msg right">
+                    Hi, ich bin eine Antwort.
+                </div>
+                <div class="msg left">
+                    Hi, ich bin eine Nachricht
+                </div>
+                <div class="msg right">
+                    Hi, ich bin eine Antwort.
+                </div>
+                <div class="msg left">
+                    Hi, ich bin eine Nachricht
+                </div>
+                <div class="msg right">
+                    Hi, ich bin eine Antwort.
+                </div>
+                <div class="msg left">
+                    Hi, ich bin eine Nachricht
+                </div>
+                <div class="msg right">
+                    Hi, ich bin eine Antwort.
+                </div>
+                <div class="msg left">
+                    Hi, ich bin eine Nachricht
+                </div>
+                <div class="msg right">
+                    Hi, ich bin eine Antwort.
+                </div>
+            </div>
+            <!-- This area contains the input and send box -->
+            <div class="input">
+                <!-- Here we can enter our chat-Message -->
+                <input type="text">
+                <!-- In this box the send-Button is placed -->
+                <div class="sendBtn">
+                    <img src="send.svg" />
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
